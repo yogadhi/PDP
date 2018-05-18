@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.YAP.PasarSurya" android:installLocation="internalOnly" android:versionCode="1" android:versionName="2.0.0">
+	<uses-sdk android:minSdkVersion="15" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+	<uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+	<uses-permission android:name="android.permission.DELETE_PACKAGES" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_LOGS" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+	<application android:icon="@drawable/ic_logo" android:theme="@style/MyTheme" android:label="PasarSurya"></application>
+</manifest>
